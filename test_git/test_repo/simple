@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-       stage('create file ') {
+       stage('create file') {
             steps {
-                  sh touch file.txt
+                 sh 'touch file.txt'
                  echo 'creation...'
                 // Add your build steps here
             }
