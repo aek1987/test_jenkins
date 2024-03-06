@@ -4,9 +4,10 @@ pipeline {
     stages {
        stage('create file') {
             steps {
+              script {
                  sh 'ls -ailt'
                  echo 'creation...'
-                // Add your build steps here
+                // Add your build steps here }
             }
         }
         stage('Build') {
