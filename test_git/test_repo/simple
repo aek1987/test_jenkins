@@ -4,7 +4,7 @@ pipeline {
     stages {
        stage('create file') {
             steps {
-                 sh 'touch file.txt'
+                 sh 'ls -ailt'
                  echo 'creation...'
                 // Add your build steps here
             }
